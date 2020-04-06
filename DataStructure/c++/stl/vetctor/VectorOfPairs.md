@@ -77,6 +77,7 @@ if (g1.empty() == false)
  sort(v.begin(), v.end()); 
  //Aplicable on String array also
  
+ //Sort By Value/Second Element
  bool sortbysec(const pair<int,int> &a, const pair<int,int> &b){ 
     return (a.second < b.second); 
  }
