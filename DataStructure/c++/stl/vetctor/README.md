@@ -35,6 +35,8 @@ myvector.pop_back();
 ```c++
 g1[i];
 g1.at(i)
+//Assign
+g1[i]=2;
 ``` 
 
 ## Iterate
