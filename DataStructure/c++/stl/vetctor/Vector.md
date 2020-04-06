@@ -39,6 +39,16 @@ g1.at(i)
 g1[i]=2;
 ``` 
 
+## Checkif Element Exist and getElement by Value
+
+```c++
+if(s.find(x)!=s.end()){
+    vector<ll>::iterator it = s.find(x);
+    cout<<*it;
+    s.erase(it);
+}
+``` 
+
 ## Iterate
 
 ```c++
