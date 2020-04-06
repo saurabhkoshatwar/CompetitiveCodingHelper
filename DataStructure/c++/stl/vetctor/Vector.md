@@ -67,11 +67,16 @@ if (g1.empty() == false)
 * ### Ascending
 ```c++
  sort(v.begin(), v.end()); 
+ sort(all(v));
+ //shortForm
  //Aplicable on String array also
 ``` 
 * ### Descending
 ```c++
 sort(v.begin(), v.end(), greater<int>()); 
+sort(all(v), greater<int>());
+//shortForm
+
 //Aplicable on String array also
 ``` 
 
