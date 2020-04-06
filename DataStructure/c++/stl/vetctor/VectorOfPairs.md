@@ -75,6 +75,8 @@ if (g1.empty() == false)
 * ### Ascending
 ```c++
  sort(v.begin(), v.end()); 
+ sort(all(v));
+ //shortForm
  //Aplicable on String array also
  
  //Sort By Value/Second Element
@@ -82,6 +84,8 @@ if (g1.empty() == false)
     return (a.second < b.second); 
  }
  sort(vect.begin(), vect.end(), sortbysec); 
+ sort(all(v), sortbysec);
+ //shortForm
 ``` 
 * ### Descending
 ```c++
@@ -89,11 +93,14 @@ bool sortinrev(const pair<int,int> &a,const pair<int,int> &b){
        return (a.first > b.first); 
 }   
 sort(vect.begin(), vect.end(), sortinrev); 
-
+sort(all(v), sortinrev);
+//shortForm
+ 
 bool sortbysecdesc(const pair<int,int> &a, const pair<int,int> &b) { 
        return a.second>b.second; 
 } 
 sort(vect.begin(), vect.end(), sortbysecdesc); 
-
+sort(all(v), sortbysecdesc);
+//shortForm
 ``` 
 
