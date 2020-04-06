@@ -9,23 +9,23 @@ vector<string> v2;
 
 ## Insert
 
-### At last
+* ### At last
 ```c++
  v1.push_back(i); 
  //Template shortform
  v1.pb(i);
 ```
-### At ith position
+* ###  At ith position
 ```c++
  vec.insert(vec.begin() + i, 7); 
  ```
 ## Delete
 
-### From last
+* ###  From last
 ```c++
 myvector.pop_back(); 
 ```
-### ith position
+* ###  ith position
 ```c++
  vec.erase(vec.begin() + i); 
  ```
@@ -54,5 +54,18 @@ if (g1.empty() == false)
         cout << "\nVector is not empty"; 
     else
         cout << "\nVector is empty"; 
+``` 
+
+## Sort Vector
+
+* ### Ascending
+```c++
+ sort(v.begin(), v.end()); 
+ //Aplicable on String array also
+``` 
+* ### Descending
+```c++
+sort(v.begin(), v.end(), greater<int>()); 
+//Aplicable on String array also
 ``` 
 
