@@ -42,6 +42,10 @@ g1[i]=2;
 ## Iterate
 
 ```c++
+for (int i=0; i<vec.size(); i++) {  
+        cout << vect[i] << endl; 
+} 
+    
 for (auto i = g1.begin(); i != g1.end(); ++i) 
         cout << *i << " "; 
 ``` 
