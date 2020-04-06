@@ -2,13 +2,17 @@
 ## Duplicate check
 ```c++
 bool duplicateCheck(int x){
-    for(int i=0;i<n;i++){
-        if(vec.find(x)!=vec.end()){
-            vec.pb(x);
-            return false;
-        }else{
-            return true;
-        }
+    if(vec.find(x)!=vec.end()){
+        vec.pb(x);
+        return false;
+    }else{
+        return true;
     }
+}
+
+int x;
+f(0,i,n){
+    cin>>x;
+    duplicateCheck(x);
 }
 ```
