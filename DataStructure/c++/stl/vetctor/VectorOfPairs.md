@@ -51,7 +51,7 @@ gi[i].si = 3;
 for (auto i = g1.begin(); i != g1.end(); ++i) 
         cout << *i << " "; 
 
-for (int i=0; i<; vec.size(); i++) { 
+for (int i=0; i<vec.size(); i++) { 
         // "first" and "second" are used to access 
         // 1st and 2nd element of pair respectively 
         cout << vect[i].first << " "<< vect[i].second << endl; 
