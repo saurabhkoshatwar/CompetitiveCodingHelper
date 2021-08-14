@@ -1,5 +1,12 @@
 # Useful apis
 
+## MAX VALUE
+
+```c++
+int minprice = Integer.MAX_VALUE;
+
+```
+
 ## max
 
 ```c++
