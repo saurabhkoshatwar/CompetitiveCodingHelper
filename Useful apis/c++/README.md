@@ -1,9 +1,13 @@
 # Useful apis
 
-## MAX VALUE
+## MAX and MIN VALUE
 
 ```c++
-int price = Integer.MAX_VALUE;
+int price = INT_MAX;
+//2147483647
+
+int price = INT_MIN;
+//-2147483648
 
 ```
 
