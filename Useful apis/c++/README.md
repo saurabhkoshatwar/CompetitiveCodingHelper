@@ -3,7 +3,7 @@
 ## MAX VALUE
 
 ```c++
-int minprice = Integer.MAX_VALUE;
+int price = Integer.MAX_VALUE;
 
 ```
 
