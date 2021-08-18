@@ -36,3 +36,11 @@ size_t pos = str.find("live");      // position of "live" in str
 string str3 = str.substr(pos);     // get from "live" to the end  
 ```  
   
+## Sort string
+
+* ### Ascending
+```c++
+string str = "geeksforgeeks";
+sort(str.begin(), str.end());  
+```  
+  
