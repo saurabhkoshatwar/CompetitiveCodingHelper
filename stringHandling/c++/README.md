@@ -11,7 +11,18 @@ string str = "Saurabh";
 ```c++
 cout << str.length() << endl;
 ```
-#include <string>
+
+## Access ith element
+
+* ### As char
+```c++
+str[i];
+```
+  
+* ### As string
+```c++
+str.substr(i,1);
+```  
   
 ## Get Substring
 
