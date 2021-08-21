@@ -1,4 +1,4 @@
-# Useful apis
+# Useful Arithmetic apis
 
 ## MAX and MIN VALUE
 
