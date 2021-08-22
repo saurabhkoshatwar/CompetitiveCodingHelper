@@ -7,6 +7,14 @@ vector<int> v1;
 vector<string> v2; 
 ```
 
+## Initialize
+
+```c++
+// Create a vector of size n with
+// all values as 10.
+vector<int> vect(n, 10);
+```
+
 ## Insert
 
 * ### At last
