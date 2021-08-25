@@ -50,11 +50,19 @@ g1[i]=2;
 ## Checkif Element Exist and getElement by Value
 
 ```c++
-if(s.find(x)!=s.end()){
+#include <algorithm>
+if (std::find(v.begin(), v.end(), key) != v.end()) {
+        std::cout << "Element found";
+}
+else {
+    std::cout << "Element not found";
+}
+    
+/*if(s.find(x)!=s.end()){
     vector<ll>::iterator it = s.find(x);
     cout<<*it;
     s.erase(it);
-}
+}*?
 ``` 
 
 ## Iterate
