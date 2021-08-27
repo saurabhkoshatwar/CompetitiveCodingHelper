@@ -16,3 +16,10 @@ int myint3 = stoi(str3);
 //stoi("3.14159") is 3
 //stoi("31337 geek") is 31337 
 ```
+
+## char to Int
+```c++
+//ASCII code, the numbers (digits) start from 48 -> '0' zero
+char c1 = "45";
+int i = c1 - '0'; 
+```
