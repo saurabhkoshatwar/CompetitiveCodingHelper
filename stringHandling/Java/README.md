@@ -71,3 +71,16 @@ input1.reverse();
 
 String rev = input1.toString();
 ```
+
+## String Compare
+
+```Java
+String st1 = "abc";
+
+if(str1.equals("abc")){
+//
+}else{
+//
+}
+
+```
