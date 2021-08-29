@@ -102,7 +102,28 @@ if (g1.empty() == false)
 sort(v.begin(), v.end(), greater<int>()); 
 sort(all(v), greater<int>());
 //shortForm
-
 //Aplicable on String array also
+``` 
+* ### Sort multiple vector based on just 1 vector
+```c++
+// make struct of all vectors and then sort
+
+struct allvec
+{
+    int v1data, v2data, v3data;
+};
+
+//initiallize
+allvec obj1 = { 1,1,1,1 };
+allvec obj2 = { 3,3,3,3 };
+
+vector<allvec> vecs;
+vecs.push_back(obj1);
+vecs.push_back(obj2);
+
+sort(vecs.begin(), vecs.end(), [](const allvec& c1, const allvec& c2) {
+    return c1.v1data < c2.v1data;
+});
+
 ``` 
 
