@@ -117,6 +117,13 @@ struct allvec
 allvec obj1 = { 1,1,1,1 };
 allvec obj2 = { 3,3,3,3 };
 
+/* 
+//OR similar to below
+for(int i=0;i<startTime.size();i++){
+    jobs temp = {startTime[i],endTime[i],profit[i]};
+    js.push_back(temp);
+}*/
+
 vector<allvec> vecs;
 vecs.push_back(obj1);
 vecs.push_back(obj2);
