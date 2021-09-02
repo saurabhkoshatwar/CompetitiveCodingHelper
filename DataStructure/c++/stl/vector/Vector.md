@@ -13,6 +13,10 @@ vector<string> v2;
 // Create a vector of size n with
 // all values as 10.
 vector<int> vect(n, 10);
+
+// Create a vector of size m X n with
+// all values as -1.
+vector<vector<int>> dp(m,vector<int>(n,-1));
 ```
 
 ## Insert
