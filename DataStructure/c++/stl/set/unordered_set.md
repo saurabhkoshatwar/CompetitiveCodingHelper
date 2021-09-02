@@ -49,7 +49,7 @@ g1[i]=2;
 
 ```c++
 // fast -- uses hashing
-if (intSet.find(2) == intSet.end()){
+if (intSet.find(2) != intSet.end()){
         std::cout << "Element found";
 }
 else {
