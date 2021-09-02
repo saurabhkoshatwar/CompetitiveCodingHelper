@@ -138,3 +138,17 @@ sort(vecs.begin(), vecs.end(), [](const allvec& c1, const allvec& c2) {
 
 ``` 
 
+## Pass vector to function
+
+* ### by reference
+```c++
+void callmefunc(vector<vector>&dp){
+}
+void callmefunc(vector<int>&dp){
+}
+
+void main(){
+vector<int> dp;
+calmefunc(dp);
+}
+``` 
