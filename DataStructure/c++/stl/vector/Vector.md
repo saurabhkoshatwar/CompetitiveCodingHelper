@@ -142,7 +142,7 @@ sort(vecs.begin(), vecs.end(), [](const allvec& c1, const allvec& c2) {
 
 * ### by reference
 ```c++
-void callmefunc(vector<vector>&dp){
+void callmefunc(vector<vector<int>>&dp){
 }
 void callmefunc(vector<int>&dp){
 }
