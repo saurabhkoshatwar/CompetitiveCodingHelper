@@ -41,6 +41,10 @@ myvector.pop_back();
 ```c++
  vec.erase(vec.begin() + i); 
  ```
+* ### To Delete all elements/ clear array
+```c++
+myvector.clear();
+```
 
 ## Access
 
@@ -152,3 +156,5 @@ vector<int> dp;
 calmefunc(dp);
 }
 ``` 
+
+
