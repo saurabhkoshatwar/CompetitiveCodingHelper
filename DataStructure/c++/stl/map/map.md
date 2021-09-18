@@ -36,7 +36,7 @@ bool cmp(pair<string, int>& a,
   
 // Function to sort the map according
 // to value in a (key-value) pairs
-void sort(map<string, int>& M)
+vector<pair<string, int> > sort(map<string, int>& M)
 {
   
     // Declare vector of pairs
@@ -51,11 +51,6 @@ void sort(map<string, int>& M)
     // Sort using comparator function
     sort(A.begin(), A.end(), cmp);
   
-    // Print the sorted value
-    for (auto& it : A) {
-  
-        cout << it.first << ' '
-             << it.second << endl;
-    }
+    return  A;
 }
 ```
