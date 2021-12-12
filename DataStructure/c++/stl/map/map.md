@@ -23,6 +23,13 @@ m1.insert(pair<string, int>("foo", 40));
 ```c++
  vec.insert(vec.begin() + i, 7);  
  ```-->
+ 
+ ## Delete
+
+* ###  By key
+```c++
+m1.erase(1); //key is 1
+```
 
 ## Sort Map
 
