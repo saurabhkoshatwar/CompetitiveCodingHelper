@@ -13,6 +13,20 @@ map<string, int>   registers;
 
 ```
 
+## Access BY KEY
+
+```c++
+m1[key];
+m1.at(key)
+``` 
+## Checkif Element Exist
+
+```c++
+if(m1[key]!=null){
+
+}
+``` 
+
 ## Insert
 
 * ### At last
