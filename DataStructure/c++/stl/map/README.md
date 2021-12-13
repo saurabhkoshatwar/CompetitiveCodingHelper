@@ -1,8 +1,8 @@
 ## Notes 
 
-### mpa vs unordered_map
+### map vs unordered_map
 * same function for both
-* differece
+* difference
 ```text
                   | map             | unordered_map
 ---------------------------------------------------------
