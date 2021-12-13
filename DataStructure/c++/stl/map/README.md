@@ -3,6 +3,7 @@
 ### mpa vs unordered_map
 * same function for both
 * differece
+```text
                   | map             | unordered_map
 ---------------------------------------------------------
 Ordering        | increasing  order   | no ordering
@@ -17,3 +18,4 @@ search time     | log(n)              | O(1) -> Average
 Insertion time  | log(n) + Rebalance  | Same as search
                       
 Deletion time   | log(n) + Rebalance  | Same as search   
+```
