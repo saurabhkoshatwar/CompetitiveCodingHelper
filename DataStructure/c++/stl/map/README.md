@@ -1,7 +1,7 @@
 ## Notes 
 
 ### map vs unordered_map
-* same function for both
+* same stl function apis for both
 * difference
 ```text
                   | map             | unordered_map
