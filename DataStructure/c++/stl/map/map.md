@@ -22,7 +22,7 @@ m1.at(key)
 ## Checkif Element Exist
 
 ```c++
-if(m1[key]!=m1.end()){
+if(m1.find(key)!=m1.end()){
 //exist
 }
 ``` 
