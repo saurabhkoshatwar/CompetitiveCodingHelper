@@ -121,16 +121,25 @@ struct allvec
     int v1data, v2data, v3data;
 };
 
-//initiallize
+//initiallize  just example ignore 
 allvec obj1 = { 1,1,1,1 };
 allvec obj2 = { 3,3,3,3 };
 
-/* 
+/*            ----------------------IMP----------------
 //OR similar to below
+
+struct job{
+.......
+};
+
+vector<job> js
+
 for(int i=0;i<startTime.size();i++){
     jobs temp = {startTime[i],endTime[i],profit[i]};
     js.push_back(temp);
-}*/
+}
+
+*/
 
 vector<allvec> vecs;
 vecs.push_back(obj1);
